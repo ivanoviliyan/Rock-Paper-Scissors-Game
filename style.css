@@ -1,0 +1,25 @@
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.choice {
+    display: flex;
+    justify-content: center;
+}
+
+.choice img{
+    margin: 10px 20px;
+    height: 100px;
+    width: 100px;
+}
+
+.choice-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+h2{
+    text-align: center;
+}
