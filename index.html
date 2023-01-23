@@ -6,9 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock-Paper-Scissors-Game</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>Rock Paper Scissors</header>
+    <header>Rock Paper Scissors Game</header>
+    <h2>Score:</h2>
+    <div class="score"> 
+        <label>Computer: </label><span id="computer-wins">0</span>
+        <label>Player: </label><span id="player-wins">0</span>
+    </div>
 
     <div class="choice">
         <img src="img/rock.png">
@@ -21,7 +27,16 @@
         <button id="scissors-btn">Scissors</button>
     </div>
 
-    <h2>Pick your weapon</h2>
+    <div class="container">
+        <h2 id="output"></h2>
+        <button id="restart-btn">Restart</button>
+        <h2 id="weapon-msg">Pick your weapon</h2>
+    </div>
+    
+    
+    
+
+    
 
     <script src="index.js"></script>
 </body>
